@@ -1,0 +1,6 @@
+baseURL = 'https://mo0.jp/'
+languageCode = 'ja-jp'
+hasCJKLanguage = true
+
+title = '18歳で東京から大阪に移住した独学C言語エンジニアのブログ'
+theme = "PaperMod"
