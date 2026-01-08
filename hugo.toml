@@ -10,10 +10,16 @@ description = '東京都から大阪府に引っ越してきて基盤を築こ�
     [params.author]
         name = "R.U"
     
-    #"regular"（通常）| "home-info"（自己紹介表示）| "profile"（プロフィール中心）
-    homeInfoMode = "home-info"
+    [params.assets]
+        favicon = "images/favicon.png"
+        # apple_touch_icon = "apple-touch-icon.png"
+        # safari_pinned_tab = "safari-pinned-tab.svg"
     
-    # 
+    #"regular"（通常）| "home-info"（自己紹介表示）| "profile"（プロフィール中心）
+    # homeInfoMode = "home-info"
+    
+    mainSections = ["page/posts/"]
+
     [params.homeInfoParams]
         Title = "R.U 🐲.🐄"
         Content = "18歳で東京から大阪に移住した独学C言語エンジニア"
@@ -32,7 +38,7 @@ description = '東京都から大阪府に引っ越してきて基盤を築こ�
     ShowWordCount = true
     ShowRssButtonInSectionTermList = true
     UseHugoToc = true
-    
+
     [params.cover]
         hidden = false
         hiddenInList = false
@@ -45,7 +51,7 @@ description = '東京都から大阪府に引っ越してきて基盤を築こ�
 
 [[menu.main]]
     name = "About"
-    url = "/page/about/"
+    url = "/about/"
     weight = 2
 
 [[menu.main]]
