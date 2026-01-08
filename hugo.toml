@@ -48,23 +48,3 @@ description = '東京都から大阪府に引っ越してきて基盤を築こ�
     
     [params.shareicons]
         enable = true
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-
-[[menu.main]]
-    name = "Archive"
-    url = "/archives/"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-
-[[menu.main]]
-    name = "Search"
-    url = "/search/"
-    weight = 5
