@@ -5,7 +5,6 @@ title = 'やっとまともにブログを作れた'
 description = '4年間先延ばしにしていたブログ作り。19歳になってようやくHugoとGitHub Pagesでブログを立ち上げた話。'
 tags = ["ブログ", "Hugo", "GitHub Pages"]
 categories = ["開発"]
-showToc = true
 +++
 
 ## ことの経緯
